@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IELTS Vocabulary Flashcards – Technology & Innovation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f0f4ff;
+      color: #1a1a2e;
+      min-height: 100vh;
+      padding: 32px 20px 60px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header .badge {
+      display: inline-block;
+      background: #4f46e5;
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #1a1a2e;
+      margin-bottom: 6px;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      color: #6b7280;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 700px) {
+      .grid { grid-template-columns: 1fr; }
+      header h1 { font-size: 1.5rem; }
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 28px 28px 24px;
+      box-shadow: 0 2px 12px rgba(79, 70, 229, 0.08), 0 1px 3px rgba(0,0,0,0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border-top: 4px solid var(--accent);
+    }
+
+    .card-header { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+
+    .word {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1.1;
+    }
+
+    .pos {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #6b7280;
+      background: #f3f4f6;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .section {
+      border-radius: 10px;
+      padding: 10px 13px;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .definition  { background: #eef2ff; }
+    .definition .section-label  { color: #4338ca; }
+
+    .example     { background: #f0fdf4; }
+    .example .section-label     { color: #16a34a; }
+
+    .collocations { background: #fff7ed; }
+    .collocations .section-label { color: #c2410c; }
+
+    .idiom       { background: #fdf4ff; }
+    .idiom .section-label       { color: #9333ea; }
+
+    .tip         { background: #fffbeb; border-left: 3px solid #f59e0b; }
+    .tip .section-label         { color: #b45309; }
+
+    .colloc-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px; }
+    .chip {
+      background: #fed7aa;
+      color: #7c2d12;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 12px;
+    }
+
+    /* per-card accent colours */
+    .card:nth-child(1) { --accent: #4f46e5; }
+    .card:nth-child(2) { --accent: #0891b2; }
+    .card:nth-child(3) { --accent: #16a34a; }
+    .card:nth-child(4) { --accent: #dc2626; }
+    .card:nth-child(5) { --accent: #7c3aed; }
+    .card:nth-child(6) { --accent: #0d9488; }
+    .card:nth-child(7) { --accent: #ea580c; }
+    .card:nth-child(8) { --accent: #db2777; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="badge">IELTS Vocabulary</div>
+  <h1>Technology &amp; Innovation</h1>
+  <p>Wednesday, 10 June 2026 &nbsp;·&nbsp; 8 flashcards</p>
+</header>
+
+<div class="grid">
+
+  <!-- 1 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">algorithm</span>
+      <span class="pos">noun</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      A set of rules or instructions followed by a computer to solve a problem or complete a task. Algorithms form the backbone of all software and digital decision-making systems.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      Social media platforms use sophisticated algorithms to curate content and maximise user engagement.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">design an algorithm</span>
+        <span class="chip">machine-learning algorithm</span>
+        <span class="chip">run an algorithm</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"black-box algorithm"</em> — an algorithm whose internal workings are opaque or unexplainable to outside observers.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      Think of Al Gore + rhythm: a rhythm is a pattern of steps — so an <strong>algo</strong>rithm is a pattern of logical steps.
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">automation</span>
+      <span class="pos">noun</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      The use of technology to perform tasks with minimal human intervention, often replacing manual labour. Automation is a defining feature of the modern industrial and digital economy.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      The widespread automation of manufacturing processes has significantly boosted productivity while simultaneously displacing low-skilled workers.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">drive automation</span>
+        <span class="chip">industrial automation</span>
+        <span class="chip">accelerate automation</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"lights-out factory"</em> — a fully automated facility that can operate in complete darkness because no human workers are present.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      <strong>Auto</strong> = self; <strong>mation</strong> ~ motion. A self-moving (self-operating) process = automation.
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">disruptive</span>
+      <span class="pos">adjective</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      Causing radical change by introducing a new product, service, or technology that displaces established competitors. In business contexts, "disruptive" is largely positive.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      Ride-hailing apps proved to be disruptive innovations that fundamentally transformed the traditional taxi industry.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">disruptive technology</span>
+        <span class="chip">disruptive innovation</span>
+        <span class="chip">disruptive force</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"shake up the market"</em> — to disrupt an established industry by introducing something radically new.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      Picture a smooth road (<em>rupt</em> = break) being <em>dis</em>connected — the technology <strong>breaks apart</strong> what already existed.
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">proliferation</span>
+      <span class="pos">noun</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      A rapid and widespread increase in the number or spread of something. In technology contexts, it often describes the fast expansion of devices, platforms, or digital tools.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      The proliferation of smartphones in developing nations has democratised access to information and financial services.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">rapid proliferation</span>
+        <span class="chip">the proliferation of devices</span>
+        <span class="chip">curb proliferation</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"spread like wildfire"</em> — to proliferate extremely quickly and in an uncontrolled manner.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      <strong>Prolific</strong> means producing a lot → <strong>proliferation</strong> is the explosion of prolific production.
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">augmented</span>
+      <span class="pos">adjective</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      Enhanced or supplemented, especially by the addition of digital information overlaid on the real world. Widely used in "augmented reality" (AR) contexts.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      Augmented reality applications are increasingly being deployed in surgery, enabling physicians to visualise anatomical data in real time.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">augmented reality</span>
+        <span class="chip">augmented intelligence</span>
+        <span class="chip">augmented workforce</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"layer on top of"</em> — to add digital information augmented over the physical world, as in AR.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      <strong>Aug</strong>ment sounds like <strong>aug</strong>ust (great, majestic) — augmented = made <em>greater</em> by adding to it.
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">obsolescence</span>
+      <span class="pos">noun</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      The process of becoming outdated or no longer useful, typically because something newer or more efficient has replaced it. Common in discussions of rapid technological change.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      Planned obsolescence — designing products to fail after a fixed period — has been widely criticised as environmentally irresponsible.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">planned obsolescence</span>
+        <span class="chip">technological obsolescence</span>
+        <span class="chip">risk obsolescence</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"past its sell-by date"</em> — so outdated as to be useless; obsolete.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      <strong>Obsolete</strong> → <strong>obsolescence</strong>. The -escence ending signals a <em>process</em> of becoming (like adolescence = becoming an adult).
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">scalability</span>
+      <span class="pos">noun</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      The capacity of a system, network, or process to handle a growing amount of work or to be expanded to accommodate growth without losing performance.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      Cloud computing is prized for its scalability, allowing businesses to expand their digital infrastructure on demand.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">ensure scalability</span>
+        <span class="chip">horizontal scalability</span>
+        <span class="chip">limit scalability</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"grow without growing pains"</em> — to scale up smoothly, an expression of good scalability.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      Imagine a <strong>scale</strong> (weighing scale) that can keep expanding its range — the ability to <strong>scale</strong> up = scalability.
+    </div>
+  </div>
+
+  <!-- 8 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="word">convergence</span>
+      <span class="pos">noun</span>
+    </div>
+    <div class="section definition">
+      <span class="section-label">Definition</span>
+      The merging of distinct technologies, industries, or systems into a unified whole. Technological convergence describes how formerly separate devices and services combine into single platforms.
+    </div>
+    <div class="section example">
+      <span class="section-label">Example sentence</span>
+      The convergence of telecommunications, computing, and media has fundamentally altered how societies produce and consume content.
+    </div>
+    <div class="section collocations">
+      <span class="section-label">Collocations</span>
+      <div class="colloc-chips">
+        <span class="chip">technological convergence</span>
+        <span class="chip">digital convergence</span>
+        <span class="chip">a point of convergence</span>
+      </div>
+    </div>
+    <div class="section idiom">
+      <span class="section-label">Idiom / Fixed phrase</span>
+      <em>"two roads meet"</em> — a vivid image for convergence: separate paths coming together at a single point.
+    </div>
+    <div class="section tip">
+      <span class="section-label">Memory tip</span>
+      <strong>Con-</strong> (together) + <strong>verge</strong> (edge/direction) → moving <em>towards the same edge</em>. Rivers converge; so do technologies.
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
